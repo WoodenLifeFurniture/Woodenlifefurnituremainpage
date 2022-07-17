@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>WoodenLife Furniture | Ecommerce Website</title>
+    <link rel="stylesheet" href="syle2.css">
+    <script src="store.js" async></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script type="text/javascript" src="./store.js"></script>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Noto+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img alt="logo" src="images/Logo.png" width="100px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Now</a></li>
+                    <li><a href="account.html">Sign In</a></li>
+                </ul>
+            </nav>
+           <a href="cart.html"> <img alt="cart" src="images/cart.png" weight="30px" height="30px"></a>
+            <img alt="menu" src="images/menu.png" class="menu-icon" onclick="menutonggle()">
+        </div>
+    </div>
+
+<!------>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10">
+            <div class="rounded">
+                <div class="table-responsive table-borderless">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Recieved Button</th>
+                                  
+                                     
+                                    </div>
+                                </th>
+                                <th>Order #</th>
+                                <th>Item Name</th>
+                                <th>status</th>
+                                <th>Total</th>
+                                <th>Created</th>
+                                <th>Return Button</th>
+                                <th>Ratings</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <div class="toggle-btn">
+                                        <div class="inner-circle"></div>
+                                    </div>
+                                </td>
+                                <td>#SO-13487</td>
+                                <td>Larissa</td>
+                                <td><span class="badge badge-info">Confirmed</span></td>
+                                <td>₱12,000</td>
+                                <td>Today</td>
+                                <td><a href="return.html"><button type="button">Return Item</button></a> </td>
+                                <td>  <i class = "fa fa-star" aria-hidden = "true" id = "st1"></i>
+                                    <i class = "fa fa-star" aria-hidden = "true" id = "st2"></i>
+                                    <i class = "fa fa-star" aria-hidden = "true" id = "st3"></i>
+                                    <i class = "fa fa-star" aria-hidden = "true" id = "st4"></i>
+                                    <i class = "fa fa-star" aria-hidden = "true" id = "st5"></i> </td>
+                            </tr>
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <div class="toggle-btn">
+                                        <div class="inner-circle"></div>
+                                    </div>
+                                </td>
+                                <td>#SO-13453</td>
+                                <td>Lune</td>
+                                <td><span class="badge badge-success">Fullfilled</span></td>
+                                <td>₱120,000</td>
+                                <td>Yesterday</td>
+                                <td><a href="return.html"><button type="button">Return Item</button></a> </td>
+                                <td>    <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+           </div> </td>
+                            </tr>
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <div class="toggle-btn">
+                                        <div class="inner-circle"></div>
+                                    </div>
+                                </td>
+                                <td>#SO-13498</td>
+                                <td>Ilargia</td>
+                                <td><span class="badge badge-danger">Partially shipped</span></td>
+                                <td>₱20,000</td>
+                                <td>June 12,2022</td>
+                                <td><a href="return.html"><button type="button">Return Item</button></a> </td>
+                                <td>    <div class="rating">
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                                    <i class="fa fa-star" ></i>
+                               </div> </td>
+                            </tr>
+                            <tr class="cell-1">
+                                <td class="text-center">
+                                    <div class="toggle-btn">
+                                        <div class="inner-circle"></div>
+                                    </div>
+                                </td>
+                                <td>#SO-16499</td>
+                                <td>Chandra</td>
+                                <td><span class="badge badge-success">Fullfilled</span></td>
+                                <td>₱35,000</td>
+                                <td>July 11,2022</td>
+                               <td><a href="return.html"><button type="button">Return Item</button></a> </td>
+                               <td>    <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                           </div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!----footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p> Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/Logo.png">
+                <p> “Make your home in style”<br>
+                    We are always here to help you project your wants in terms of classy, modern, aesthetic, old-style, and industrial home furniture.
+                     Your favorite style will be accommodated by the team. <br>
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+               
+            </ul>   
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+               
+            </ul>   
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022</p>
+    </div>
+</div>
+<!--------jj for toggle menu------>
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutonggle(){
+        if (MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px"
+        }
+        else{
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+
+
+<!----------js for product gallery-->
+<script>
+    var ProductImg= document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick= function()
+    {
+        ProductImg.src= SmallImg[0].src;
+
+    }
+    SmallImg[1].onclick= function()
+    {
+        ProductImg.src= SmallImg[1].src;
+
+    }
+    SmallImg[2].onclick= function()
+    {
+        ProductImg.src= SmallImg[2].src;
+
+    }
+    SmallImg[3].onclick= function()
+    {
+        ProductImg.src= SmallImg[3].src;
+
+    }
+
+
+</script>
+
+<script>
+    $(document).ready(function(){
+
+$('.toggle-btn').click(function() {
+$(this).toggleClass('active').siblings().removeClass('active');
+});
+
+});
+</script>
+
+<script>
+    $(document).ready(function() {
+      $("#st1").click(function() {
+          $(".fa-star").css("color", "black");
+          $("#st1").css("color", "yellow");
+
+      });
+      $("#st2").click(function() {
+          $(".fa-star").css("color", "black");
+          $("#st1, #st2").css("color", "yellow");
+
+      });
+      $("#st3").click(function() {
+          $(".fa-star").css("color", "black")
+          $("#st1, #st2, #st3").css("color", "yellow");
+
+      });
+      $("#st4").click(function() {
+          $(".fa-star").css("color", "black");
+          $("#st1, #st2, #st3, #st4").css("color", "yellow");
+
+      });
+      $("#st5").click(function() {
+          $(".fa-star").css("color", "black");
+          $("#st1, #st2, #st3, #st4, #st5").css("color", "yellow");
+
+      });
+    });
+</script>
+</body>
+</html>

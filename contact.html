@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>WoodenLife Furniture | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Noto+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo.png" width="100px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Now</a></li>
+                    <li><a href="account.html">Sign In</a></li>
+                </ul>
+            </nav>
+           <a href="cart.html"> <img src="images/cart.png" weight="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutonggle()">
+        </div>
+        </div>
+        
+<!--------->
+       <title> Responsive Contact Us Form  | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Kamuning Street, Block No. 32B,</div>
+          <div class="text-two"> Scout Limbaga, Quezon City</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">woodenlifefurniture@yahoo.com</div>
+          <div class="text-two">wdlfb@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>Wooden Life Furniture is ideal for the renovation and decoration of modern, classy, natural, and aesthetic home furniture.
+             We are aiming for the best to our beloved customers with our high quality products and design. If you have any concern don't hesitate to message us! </p>
+      <form method="post" action="/connector3.php" id="contactinfo">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name" id="name" name="name" aria-required="true">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email" id="email" name="email" aria-required="true">
+        </div>
+        <div class="input-box message-box">
+           <input type="text" placeholder="Message" id="message" name="message" aria-required="true">
+        </div>
+        <a href="contactnotif.html"> <button type="button" class="button" value="Submit">Send</button></a>
+        </form>
+       
+    </div>
+</div>    
+</div> 
+<!----footer------->
+<br>
+<br>
+<br>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p> Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/Logo.png">
+                <p> “Make your home in style”<br>
+                    We are always here to help you project your wants in terms of classy, modern, aesthetic, old-style, and industrial home furniture.
+                     Your favorite style will be accommodated by the team. <br>
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+               
+            </ul>   
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+               
+            </ul>   
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022</p>
+    </div>
+</div>
+<!--------jj for toggle menu------>
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutonggle(){
+        if (MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px"
+        }
+        else{
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+
+
+<!----------js for product gallery-->
+<script>
+    var ProductImg= document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick= function()
+    {
+        ProductImg.src= SmallImg[0].src;
+
+    }
+    SmallImg[1].onclick= function()
+    {
+        ProductImg.src= SmallImg[1].src;
+
+    }
+    SmallImg[2].onclick= function()
+    {
+        ProductImg.src= SmallImg[2].src;
+
+    }
+    SmallImg[3].onclick= function()
+    {
+        ProductImg.src= SmallImg[3].src;
+
+    }
+
+
+</script>
+</body>
+</html>
